@@ -1,0 +1,9 @@
+defaultNamespace: nvidia-device-plugin
+
+helm:
+  chart: nvidia-device-plugin
+  repo: https://nvidia.github.io/k8s-device-plugin
+  version: v0.15.0
+  releaseName: nvidia-device-plugin
+  values:
+    runtimeClassName: nvidia
